@@ -3,7 +3,7 @@ package com.girls.rails.railsgirlsc
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentStatePagerAdapter
-private const val ARG_OBJECT = "object"
+private const val ARG_OBJECT = "Dia "
 
 class DaysAgendedAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm) {
 
