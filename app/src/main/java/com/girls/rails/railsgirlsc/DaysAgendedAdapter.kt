@@ -9,6 +9,7 @@ class DaysAgendedAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm) {
 
     override fun getCount(): Int  = 2
 
+
     override fun getItem(position: Int): Fragment {
        return when(position){
             0 ->  DaysAgendedTabDayOne()
